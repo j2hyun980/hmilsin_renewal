@@ -30,7 +30,7 @@ $(function () {
   // banner
   const mb = new Swiper('.slide_banner', {
     loop: true,
-    //autoplay: { delay: 3000, disableOnInteraction: false, },
+    autoplay: { delay: 3000, disableOnInteraction: false, },
     speed: 600,
     pagination: { el: ".swiper-pagination", type: "bullets", clickable: true, },
   });
